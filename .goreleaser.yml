@@ -3,9 +3,8 @@ release:
     owner: jhuntwork
     name: fedup
 builds:
-  -
-    id: fedup
-    main: cmd/fedup
+  - id: fedup
+    main: ./cmd/fedup
     binary: fedup
     ldflags:
       - -s -w
