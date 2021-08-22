@@ -1,0 +1,17 @@
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+
+linters:
+  enable-all: true
+  disable:
+    - exhaustivestruct
+    - gocyclo # Disabled in favor of cyclop
+    - golint # Deprecated
+    - interfacer # Deprecated
+    - maligned # Deprecated
+    - nestif
+    - nlreturn
+    - scopelint # Deprecated
+    - wrapcheck
+    - wsl
