@@ -1,0 +1,21 @@
+release:
+  github:
+    owner: jhuntwork
+    name: fedup
+builds:
+  -
+    id: fedup
+    main: cmd/fedup
+    binary: fedup
+    ldflags:
+      - -s -w
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    goarm:
+      - 7
