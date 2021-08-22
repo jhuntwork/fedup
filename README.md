@@ -1,5 +1,7 @@
 # fedup
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/jhuntwork/fedup)](https://goreportcard.com/report/github.com/jhuntwork/fedup)
+
 ```txt
 fedup is a simple File dEDUPlicator.
 
