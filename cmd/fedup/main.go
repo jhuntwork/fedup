@@ -18,6 +18,7 @@ const (
 		"and turns all duplicates into hard links."
 )
 
+//nolint:gochecknoglobals
 var (
 	dryrun bool
 	quiet  bool

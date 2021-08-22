@@ -18,3 +18,5 @@ builds:
       - arm64
     goarm:
       - 7
+    hooks:
+      post: upx "{{ .Path }}"
