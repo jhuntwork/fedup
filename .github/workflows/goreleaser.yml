@@ -16,7 +16,7 @@ jobs:
         with:
           go-version: 1.16
       - name: Add tools
-        run: apt-get update && apt-get install make curl upx
+        run: sudo apt-get update && sudo apt-get install make curl upx
       - name: Test
         run: make test
       - name: Run GoReleaser
